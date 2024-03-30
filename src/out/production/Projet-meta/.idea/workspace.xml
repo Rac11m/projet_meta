@@ -1,0 +1,642 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="f78ed37d-e1cd-4555-9b78-e01980f9d251" name="Changes" comment="experimentation + interface graphique">
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inteface/SecondPageController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inteface/ressources/Page2.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inteface/MainPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/inteface/MainPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inteface/MainPageController.java" beforeDir="false" afterPath="$PROJECT_DIR$/inteface/MainPageController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inteface/ressources/Login.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projet-meta/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projet-meta/.idea/dbnavigator.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projet-meta/.idea/libraries/javafx_swt.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projet-meta/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projet-meta/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projet-meta/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projet-meta/Projet-meta.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projet-meta/a_star/Astar.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projet-meta/a_star/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projet-meta/bfs/BFS.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projet-meta/bfs/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projet-meta/dfs/DFS.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projet-meta/dfs/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projet-meta/inteface/MainPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projet-meta/inteface/MainPageController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projet-meta/inteface/ressources/Login.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/inteface/ressources/Page1.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projet-meta/inteface/ressources/application.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projet-meta/module-info.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projet-meta/tests/Experimentation.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projet-meta/tests/filesCSV/objets10_1.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projet-meta/tests/filesCSV/objets10_10.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projet-meta/tests/filesCSV/objets10_11.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projet-meta/tests/filesCSV/objets10_12.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projet-meta/tests/filesCSV/objets10_13.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projet-meta/tests/filesCSV/objets10_14.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projet-meta/tests/filesCSV/objets10_15.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projet-meta/tests/filesCSV/objets10_16.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projet-meta/tests/filesCSV/objets10_17.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projet-meta/tests/filesCSV/objets10_18.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projet-meta/tests/filesCSV/objets10_19.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projet-meta/tests/filesCSV/objets10_2.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projet-meta/tests/filesCSV/objets10_20.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projet-meta/tests/filesCSV/objets10_3.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projet-meta/tests/filesCSV/objets10_4.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projet-meta/tests/filesCSV/objets10_5.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projet-meta/tests/filesCSV/objets10_6.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projet-meta/tests/filesCSV/objets10_7.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projet-meta/tests/filesCSV/objets10_8.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projet-meta/tests/filesCSV/objets10_9.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projet-meta/tests/filesCSV/objets1_1.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projet-meta/tests/filesCSV/objets1_10.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projet-meta/tests/filesCSV/objets1_11.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projet-meta/tests/filesCSV/objets1_12.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projet-meta/tests/filesCSV/objets1_13.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projet-meta/tests/filesCSV/objets1_14.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projet-meta/tests/filesCSV/objets1_15.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projet-meta/tests/filesCSV/objets1_16.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projet-meta/tests/filesCSV/objets1_17.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projet-meta/tests/filesCSV/objets1_18.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projet-meta/tests/filesCSV/objets1_19.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projet-meta/tests/filesCSV/objets1_2.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projet-meta/tests/filesCSV/objets1_20.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projet-meta/tests/filesCSV/objets1_3.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projet-meta/tests/filesCSV/objets1_4.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projet-meta/tests/filesCSV/objets1_5.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projet-meta/tests/filesCSV/objets1_6.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projet-meta/tests/filesCSV/objets1_7.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projet-meta/tests/filesCSV/objets1_8.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projet-meta/tests/filesCSV/objets1_9.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projet-meta/tests/filesCSV/objets2_1.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projet-meta/tests/filesCSV/objets2_10.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projet-meta/tests/filesCSV/objets2_11.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projet-meta/tests/filesCSV/objets2_12.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projet-meta/tests/filesCSV/objets2_13.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projet-meta/tests/filesCSV/objets2_14.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projet-meta/tests/filesCSV/objets2_15.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projet-meta/tests/filesCSV/objets2_16.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projet-meta/tests/filesCSV/objets2_17.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projet-meta/tests/filesCSV/objets2_18.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projet-meta/tests/filesCSV/objets2_19.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projet-meta/tests/filesCSV/objets2_2.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projet-meta/tests/filesCSV/objets2_20.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projet-meta/tests/filesCSV/objets2_3.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projet-meta/tests/filesCSV/objets2_4.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projet-meta/tests/filesCSV/objets2_5.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projet-meta/tests/filesCSV/objets2_6.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projet-meta/tests/filesCSV/objets2_7.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projet-meta/tests/filesCSV/objets2_8.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projet-meta/tests/filesCSV/objets2_9.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projet-meta/tests/filesCSV/objets3_1.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projet-meta/tests/filesCSV/objets3_10.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projet-meta/tests/filesCSV/objets3_11.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projet-meta/tests/filesCSV/objets3_12.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projet-meta/tests/filesCSV/objets3_13.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projet-meta/tests/filesCSV/objets3_14.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projet-meta/tests/filesCSV/objets3_15.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projet-meta/tests/filesCSV/objets3_16.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projet-meta/tests/filesCSV/objets3_17.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projet-meta/tests/filesCSV/objets3_18.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projet-meta/tests/filesCSV/objets3_19.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projet-meta/tests/filesCSV/objets3_2.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projet-meta/tests/filesCSV/objets3_20.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projet-meta/tests/filesCSV/objets3_3.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projet-meta/tests/filesCSV/objets3_4.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projet-meta/tests/filesCSV/objets3_5.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projet-meta/tests/filesCSV/objets3_6.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projet-meta/tests/filesCSV/objets3_7.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projet-meta/tests/filesCSV/objets3_8.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projet-meta/tests/filesCSV/objets3_9.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projet-meta/tests/filesCSV/objets4_1.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projet-meta/tests/filesCSV/objets4_10.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projet-meta/tests/filesCSV/objets4_11.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projet-meta/tests/filesCSV/objets4_12.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projet-meta/tests/filesCSV/objets4_13.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projet-meta/tests/filesCSV/objets4_14.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projet-meta/tests/filesCSV/objets4_15.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projet-meta/tests/filesCSV/objets4_16.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projet-meta/tests/filesCSV/objets4_17.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projet-meta/tests/filesCSV/objets4_18.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projet-meta/tests/filesCSV/objets4_19.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projet-meta/tests/filesCSV/objets4_2.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projet-meta/tests/filesCSV/objets4_20.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projet-meta/tests/filesCSV/objets4_3.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projet-meta/tests/filesCSV/objets4_4.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projet-meta/tests/filesCSV/objets4_5.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projet-meta/tests/filesCSV/objets4_6.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projet-meta/tests/filesCSV/objets4_7.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projet-meta/tests/filesCSV/objets4_8.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projet-meta/tests/filesCSV/objets4_9.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projet-meta/tests/filesCSV/objets5_1.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projet-meta/tests/filesCSV/objets5_10.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projet-meta/tests/filesCSV/objets5_11.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projet-meta/tests/filesCSV/objets5_12.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projet-meta/tests/filesCSV/objets5_13.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projet-meta/tests/filesCSV/objets5_14.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projet-meta/tests/filesCSV/objets5_15.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projet-meta/tests/filesCSV/objets5_16.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projet-meta/tests/filesCSV/objets5_17.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projet-meta/tests/filesCSV/objets5_18.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projet-meta/tests/filesCSV/objets5_19.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projet-meta/tests/filesCSV/objets5_2.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projet-meta/tests/filesCSV/objets5_20.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projet-meta/tests/filesCSV/objets5_3.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projet-meta/tests/filesCSV/objets5_4.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projet-meta/tests/filesCSV/objets5_5.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projet-meta/tests/filesCSV/objets5_6.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projet-meta/tests/filesCSV/objets5_7.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projet-meta/tests/filesCSV/objets5_8.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projet-meta/tests/filesCSV/objets5_9.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projet-meta/tests/filesCSV/objets6_1.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projet-meta/tests/filesCSV/objets6_10.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projet-meta/tests/filesCSV/objets6_11.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projet-meta/tests/filesCSV/objets6_12.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projet-meta/tests/filesCSV/objets6_13.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projet-meta/tests/filesCSV/objets6_14.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projet-meta/tests/filesCSV/objets6_15.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projet-meta/tests/filesCSV/objets6_16.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projet-meta/tests/filesCSV/objets6_17.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projet-meta/tests/filesCSV/objets6_18.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projet-meta/tests/filesCSV/objets6_19.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projet-meta/tests/filesCSV/objets6_2.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projet-meta/tests/filesCSV/objets6_20.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projet-meta/tests/filesCSV/objets6_3.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projet-meta/tests/filesCSV/objets6_4.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projet-meta/tests/filesCSV/objets6_5.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projet-meta/tests/filesCSV/objets6_6.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projet-meta/tests/filesCSV/objets6_7.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projet-meta/tests/filesCSV/objets6_8.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projet-meta/tests/filesCSV/objets6_9.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projet-meta/tests/filesCSV/objets7_1.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projet-meta/tests/filesCSV/objets7_10.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projet-meta/tests/filesCSV/objets7_11.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projet-meta/tests/filesCSV/objets7_12.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projet-meta/tests/filesCSV/objets7_13.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projet-meta/tests/filesCSV/objets7_14.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projet-meta/tests/filesCSV/objets7_15.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projet-meta/tests/filesCSV/objets7_16.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projet-meta/tests/filesCSV/objets7_17.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projet-meta/tests/filesCSV/objets7_18.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projet-meta/tests/filesCSV/objets7_19.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projet-meta/tests/filesCSV/objets7_2.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projet-meta/tests/filesCSV/objets7_20.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projet-meta/tests/filesCSV/objets7_3.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projet-meta/tests/filesCSV/objets7_4.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projet-meta/tests/filesCSV/objets7_5.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projet-meta/tests/filesCSV/objets7_6.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projet-meta/tests/filesCSV/objets7_7.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projet-meta/tests/filesCSV/objets7_8.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projet-meta/tests/filesCSV/objets7_9.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projet-meta/tests/filesCSV/objets8_1.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projet-meta/tests/filesCSV/objets8_10.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projet-meta/tests/filesCSV/objets8_11.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projet-meta/tests/filesCSV/objets8_12.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projet-meta/tests/filesCSV/objets8_13.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projet-meta/tests/filesCSV/objets8_14.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projet-meta/tests/filesCSV/objets8_15.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projet-meta/tests/filesCSV/objets8_16.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projet-meta/tests/filesCSV/objets8_17.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projet-meta/tests/filesCSV/objets8_18.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projet-meta/tests/filesCSV/objets8_19.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projet-meta/tests/filesCSV/objets8_2.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projet-meta/tests/filesCSV/objets8_20.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projet-meta/tests/filesCSV/objets8_3.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projet-meta/tests/filesCSV/objets8_4.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projet-meta/tests/filesCSV/objets8_5.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projet-meta/tests/filesCSV/objets8_6.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projet-meta/tests/filesCSV/objets8_7.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projet-meta/tests/filesCSV/objets8_8.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projet-meta/tests/filesCSV/objets8_9.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projet-meta/tests/filesCSV/objets9_1.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projet-meta/tests/filesCSV/objets9_10.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projet-meta/tests/filesCSV/objets9_11.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projet-meta/tests/filesCSV/objets9_12.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projet-meta/tests/filesCSV/objets9_13.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projet-meta/tests/filesCSV/objets9_14.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projet-meta/tests/filesCSV/objets9_15.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projet-meta/tests/filesCSV/objets9_16.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projet-meta/tests/filesCSV/objets9_17.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projet-meta/tests/filesCSV/objets9_18.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projet-meta/tests/filesCSV/objets9_19.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projet-meta/tests/filesCSV/objets9_2.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projet-meta/tests/filesCSV/objets9_20.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projet-meta/tests/filesCSV/objets9_3.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projet-meta/tests/filesCSV/objets9_4.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projet-meta/tests/filesCSV/objets9_5.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projet-meta/tests/filesCSV/objets9_6.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projet-meta/tests/filesCSV/objets9_7.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projet-meta/tests/filesCSV/objets9_8.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projet-meta/tests/filesCSV/objets9_9.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projet-meta/tests/filesCSV/results1_1.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projet-meta/tests/filesCSV/results1_10.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projet-meta/tests/filesCSV/results1_11.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projet-meta/tests/filesCSV/results1_12.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projet-meta/tests/filesCSV/results1_13.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projet-meta/tests/filesCSV/results1_14.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projet-meta/tests/filesCSV/results1_15.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projet-meta/tests/filesCSV/results1_16.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projet-meta/tests/filesCSV/results1_17.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projet-meta/tests/filesCSV/results1_18.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projet-meta/tests/filesCSV/results1_19.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projet-meta/tests/filesCSV/results1_2.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projet-meta/tests/filesCSV/results1_20.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projet-meta/tests/filesCSV/results1_3.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projet-meta/tests/filesCSV/results1_4.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projet-meta/tests/filesCSV/results1_5.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projet-meta/tests/filesCSV/results1_6.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projet-meta/tests/filesCSV/results1_7.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projet-meta/tests/filesCSV/results1_8.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projet-meta/tests/filesCSV/results1_9.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projet-meta/tests/filesCSV/results2_1.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projet-meta/tests/filesCSV/results2_10.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projet-meta/tests/filesCSV/results2_11.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projet-meta/tests/filesCSV/results2_12.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projet-meta/tests/filesCSV/results2_13.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projet-meta/tests/filesCSV/results2_14.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projet-meta/tests/filesCSV/results2_15.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projet-meta/tests/filesCSV/results2_16.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projet-meta/tests/filesCSV/results2_17.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projet-meta/tests/filesCSV/results2_18.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projet-meta/tests/filesCSV/results2_19.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projet-meta/tests/filesCSV/results2_2.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projet-meta/tests/filesCSV/results2_3.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projet-meta/tests/filesCSV/results2_4.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projet-meta/tests/filesCSV/results2_5.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projet-meta/tests/filesCSV/results2_6.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projet-meta/tests/filesCSV/results2_7.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projet-meta/tests/filesCSV/results2_8.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projet-meta/tests/filesCSV/results2_9.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projet-meta/tests/filesCSV/sacs10_1.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projet-meta/tests/filesCSV/sacs10_10.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projet-meta/tests/filesCSV/sacs10_11.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projet-meta/tests/filesCSV/sacs10_12.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projet-meta/tests/filesCSV/sacs10_13.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projet-meta/tests/filesCSV/sacs10_14.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projet-meta/tests/filesCSV/sacs10_15.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projet-meta/tests/filesCSV/sacs10_16.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projet-meta/tests/filesCSV/sacs10_17.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projet-meta/tests/filesCSV/sacs10_18.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projet-meta/tests/filesCSV/sacs10_19.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projet-meta/tests/filesCSV/sacs10_2.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projet-meta/tests/filesCSV/sacs10_20.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projet-meta/tests/filesCSV/sacs10_3.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projet-meta/tests/filesCSV/sacs10_4.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projet-meta/tests/filesCSV/sacs10_5.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projet-meta/tests/filesCSV/sacs10_6.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projet-meta/tests/filesCSV/sacs10_7.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projet-meta/tests/filesCSV/sacs10_8.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projet-meta/tests/filesCSV/sacs10_9.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projet-meta/tests/filesCSV/sacs1_1.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projet-meta/tests/filesCSV/sacs1_10.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projet-meta/tests/filesCSV/sacs1_11.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projet-meta/tests/filesCSV/sacs1_12.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projet-meta/tests/filesCSV/sacs1_13.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projet-meta/tests/filesCSV/sacs1_14.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projet-meta/tests/filesCSV/sacs1_15.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projet-meta/tests/filesCSV/sacs1_16.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projet-meta/tests/filesCSV/sacs1_17.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projet-meta/tests/filesCSV/sacs1_18.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projet-meta/tests/filesCSV/sacs1_19.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projet-meta/tests/filesCSV/sacs1_2.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projet-meta/tests/filesCSV/sacs1_20.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projet-meta/tests/filesCSV/sacs1_3.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projet-meta/tests/filesCSV/sacs1_4.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projet-meta/tests/filesCSV/sacs1_5.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projet-meta/tests/filesCSV/sacs1_6.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projet-meta/tests/filesCSV/sacs1_7.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projet-meta/tests/filesCSV/sacs1_8.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projet-meta/tests/filesCSV/sacs1_9.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projet-meta/tests/filesCSV/sacs2_1.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projet-meta/tests/filesCSV/sacs2_10.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projet-meta/tests/filesCSV/sacs2_11.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projet-meta/tests/filesCSV/sacs2_12.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projet-meta/tests/filesCSV/sacs2_13.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projet-meta/tests/filesCSV/sacs2_14.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projet-meta/tests/filesCSV/sacs2_15.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projet-meta/tests/filesCSV/sacs2_16.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projet-meta/tests/filesCSV/sacs2_17.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projet-meta/tests/filesCSV/sacs2_18.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projet-meta/tests/filesCSV/sacs2_19.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projet-meta/tests/filesCSV/sacs2_2.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projet-meta/tests/filesCSV/sacs2_20.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projet-meta/tests/filesCSV/sacs2_3.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projet-meta/tests/filesCSV/sacs2_4.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projet-meta/tests/filesCSV/sacs2_5.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projet-meta/tests/filesCSV/sacs2_6.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projet-meta/tests/filesCSV/sacs2_7.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projet-meta/tests/filesCSV/sacs2_8.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projet-meta/tests/filesCSV/sacs2_9.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projet-meta/tests/filesCSV/sacs3_1.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projet-meta/tests/filesCSV/sacs3_10.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projet-meta/tests/filesCSV/sacs3_11.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projet-meta/tests/filesCSV/sacs3_12.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projet-meta/tests/filesCSV/sacs3_13.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projet-meta/tests/filesCSV/sacs3_14.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projet-meta/tests/filesCSV/sacs3_15.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projet-meta/tests/filesCSV/sacs3_16.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projet-meta/tests/filesCSV/sacs3_17.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projet-meta/tests/filesCSV/sacs3_18.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projet-meta/tests/filesCSV/sacs3_19.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projet-meta/tests/filesCSV/sacs3_2.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projet-meta/tests/filesCSV/sacs3_20.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projet-meta/tests/filesCSV/sacs3_3.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projet-meta/tests/filesCSV/sacs3_4.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projet-meta/tests/filesCSV/sacs3_5.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projet-meta/tests/filesCSV/sacs3_6.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projet-meta/tests/filesCSV/sacs3_7.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projet-meta/tests/filesCSV/sacs3_8.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projet-meta/tests/filesCSV/sacs3_9.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projet-meta/tests/filesCSV/sacs4_1.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projet-meta/tests/filesCSV/sacs4_10.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projet-meta/tests/filesCSV/sacs4_11.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projet-meta/tests/filesCSV/sacs4_12.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projet-meta/tests/filesCSV/sacs4_13.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projet-meta/tests/filesCSV/sacs4_14.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projet-meta/tests/filesCSV/sacs4_15.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projet-meta/tests/filesCSV/sacs4_16.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projet-meta/tests/filesCSV/sacs4_17.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projet-meta/tests/filesCSV/sacs4_18.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projet-meta/tests/filesCSV/sacs4_19.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projet-meta/tests/filesCSV/sacs4_2.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projet-meta/tests/filesCSV/sacs4_20.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projet-meta/tests/filesCSV/sacs4_3.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projet-meta/tests/filesCSV/sacs4_4.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projet-meta/tests/filesCSV/sacs4_5.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projet-meta/tests/filesCSV/sacs4_6.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projet-meta/tests/filesCSV/sacs4_7.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projet-meta/tests/filesCSV/sacs4_8.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projet-meta/tests/filesCSV/sacs4_9.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projet-meta/tests/filesCSV/sacs5_1.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projet-meta/tests/filesCSV/sacs5_10.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projet-meta/tests/filesCSV/sacs5_11.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projet-meta/tests/filesCSV/sacs5_12.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projet-meta/tests/filesCSV/sacs5_13.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projet-meta/tests/filesCSV/sacs5_14.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projet-meta/tests/filesCSV/sacs5_15.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projet-meta/tests/filesCSV/sacs5_16.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projet-meta/tests/filesCSV/sacs5_17.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projet-meta/tests/filesCSV/sacs5_18.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projet-meta/tests/filesCSV/sacs5_19.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projet-meta/tests/filesCSV/sacs5_2.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projet-meta/tests/filesCSV/sacs5_20.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projet-meta/tests/filesCSV/sacs5_3.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projet-meta/tests/filesCSV/sacs5_4.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projet-meta/tests/filesCSV/sacs5_5.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projet-meta/tests/filesCSV/sacs5_6.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projet-meta/tests/filesCSV/sacs5_7.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projet-meta/tests/filesCSV/sacs5_8.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projet-meta/tests/filesCSV/sacs5_9.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projet-meta/tests/filesCSV/sacs6_1.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projet-meta/tests/filesCSV/sacs6_10.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projet-meta/tests/filesCSV/sacs6_11.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projet-meta/tests/filesCSV/sacs6_12.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projet-meta/tests/filesCSV/sacs6_13.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projet-meta/tests/filesCSV/sacs6_14.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projet-meta/tests/filesCSV/sacs6_15.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projet-meta/tests/filesCSV/sacs6_16.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projet-meta/tests/filesCSV/sacs6_17.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projet-meta/tests/filesCSV/sacs6_18.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projet-meta/tests/filesCSV/sacs6_19.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projet-meta/tests/filesCSV/sacs6_2.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projet-meta/tests/filesCSV/sacs6_20.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projet-meta/tests/filesCSV/sacs6_3.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projet-meta/tests/filesCSV/sacs6_4.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projet-meta/tests/filesCSV/sacs6_5.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projet-meta/tests/filesCSV/sacs6_6.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projet-meta/tests/filesCSV/sacs6_7.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projet-meta/tests/filesCSV/sacs6_8.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projet-meta/tests/filesCSV/sacs6_9.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projet-meta/tests/filesCSV/sacs7_1.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projet-meta/tests/filesCSV/sacs7_10.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projet-meta/tests/filesCSV/sacs7_11.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projet-meta/tests/filesCSV/sacs7_12.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projet-meta/tests/filesCSV/sacs7_13.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projet-meta/tests/filesCSV/sacs7_14.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projet-meta/tests/filesCSV/sacs7_15.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projet-meta/tests/filesCSV/sacs7_16.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projet-meta/tests/filesCSV/sacs7_17.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projet-meta/tests/filesCSV/sacs7_18.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projet-meta/tests/filesCSV/sacs7_19.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projet-meta/tests/filesCSV/sacs7_2.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projet-meta/tests/filesCSV/sacs7_20.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projet-meta/tests/filesCSV/sacs7_3.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projet-meta/tests/filesCSV/sacs7_4.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projet-meta/tests/filesCSV/sacs7_5.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projet-meta/tests/filesCSV/sacs7_6.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projet-meta/tests/filesCSV/sacs7_7.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projet-meta/tests/filesCSV/sacs7_8.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projet-meta/tests/filesCSV/sacs7_9.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projet-meta/tests/filesCSV/sacs8_1.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projet-meta/tests/filesCSV/sacs8_10.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projet-meta/tests/filesCSV/sacs8_11.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projet-meta/tests/filesCSV/sacs8_12.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projet-meta/tests/filesCSV/sacs8_13.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projet-meta/tests/filesCSV/sacs8_14.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projet-meta/tests/filesCSV/sacs8_15.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projet-meta/tests/filesCSV/sacs8_16.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projet-meta/tests/filesCSV/sacs8_17.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projet-meta/tests/filesCSV/sacs8_18.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projet-meta/tests/filesCSV/sacs8_19.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projet-meta/tests/filesCSV/sacs8_2.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projet-meta/tests/filesCSV/sacs8_20.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projet-meta/tests/filesCSV/sacs8_3.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projet-meta/tests/filesCSV/sacs8_4.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projet-meta/tests/filesCSV/sacs8_5.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projet-meta/tests/filesCSV/sacs8_6.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projet-meta/tests/filesCSV/sacs8_7.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projet-meta/tests/filesCSV/sacs8_8.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projet-meta/tests/filesCSV/sacs8_9.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projet-meta/tests/filesCSV/sacs9_1.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projet-meta/tests/filesCSV/sacs9_10.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projet-meta/tests/filesCSV/sacs9_11.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projet-meta/tests/filesCSV/sacs9_12.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projet-meta/tests/filesCSV/sacs9_13.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projet-meta/tests/filesCSV/sacs9_14.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projet-meta/tests/filesCSV/sacs9_15.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projet-meta/tests/filesCSV/sacs9_16.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projet-meta/tests/filesCSV/sacs9_17.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projet-meta/tests/filesCSV/sacs9_18.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projet-meta/tests/filesCSV/sacs9_19.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projet-meta/tests/filesCSV/sacs9_2.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projet-meta/tests/filesCSV/sacs9_20.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projet-meta/tests/filesCSV/sacs9_3.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projet-meta/tests/filesCSV/sacs9_4.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projet-meta/tests/filesCSV/sacs9_5.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projet-meta/tests/filesCSV/sacs9_6.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projet-meta/tests/filesCSV/sacs9_7.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projet-meta/tests/filesCSV/sacs9_8.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projet-meta/tests/filesCSV/sacs9_9.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projet-meta/tests/filesCSV/val_results1_1.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projet-meta/tests/filesCSV/val_results1_10.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projet-meta/tests/filesCSV/val_results1_11.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projet-meta/tests/filesCSV/val_results1_12.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projet-meta/tests/filesCSV/val_results1_13.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projet-meta/tests/filesCSV/val_results1_14.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projet-meta/tests/filesCSV/val_results1_15.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projet-meta/tests/filesCSV/val_results1_16.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projet-meta/tests/filesCSV/val_results1_17.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projet-meta/tests/filesCSV/val_results1_18.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projet-meta/tests/filesCSV/val_results1_19.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projet-meta/tests/filesCSV/val_results1_2.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projet-meta/tests/filesCSV/val_results1_20.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projet-meta/tests/filesCSV/val_results1_3.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projet-meta/tests/filesCSV/val_results1_4.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projet-meta/tests/filesCSV/val_results1_5.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projet-meta/tests/filesCSV/val_results1_6.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projet-meta/tests/filesCSV/val_results1_7.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projet-meta/tests/filesCSV/val_results1_8.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projet-meta/tests/filesCSV/val_results1_9.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projet-meta/tests/filesCSV/val_results2_1.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projet-meta/tests/filesCSV/val_results2_10.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projet-meta/tests/filesCSV/val_results2_11.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projet-meta/tests/filesCSV/val_results2_12.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projet-meta/tests/filesCSV/val_results2_13.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projet-meta/tests/filesCSV/val_results2_14.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projet-meta/tests/filesCSV/val_results2_15.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projet-meta/tests/filesCSV/val_results2_16.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projet-meta/tests/filesCSV/val_results2_17.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projet-meta/tests/filesCSV/val_results2_18.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projet-meta/tests/filesCSV/val_results2_19.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projet-meta/tests/filesCSV/val_results2_2.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projet-meta/tests/filesCSV/val_results2_3.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projet-meta/tests/filesCSV/val_results2_4.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projet-meta/tests/filesCSV/val_results2_5.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projet-meta/tests/filesCSV/val_results2_6.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projet-meta/tests/filesCSV/val_results2_7.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projet-meta/tests/filesCSV/val_results2_8.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projet-meta/tests/filesCSV/val_results2_9.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projet-meta/util/Etat.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projet-meta/util/Objet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projet-meta/util/Sac.class" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaFXApplication" />
+        <option value="module-info" />
+        <option value="FxmlFile" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2eMbvXUWV1sSV1WpLklPTsF5xXZ" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "C:/Users/DropZone/AppData/Local/SceneBuilder/SceneBuilder.exe",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\DropZone\eclipse-workspace\Projet-meta\src\inteface\ressources" />
+      <recent name="C:\Users\DropZone\eclipse-workspace\Projet-meta\src\inteface" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.MainPage">
+    <configuration name="Experimentation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="tests.Experimentation" />
+      <module name="Projet-meta" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MainPage" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="inteface.MainPage" />
+      <module name="Projet-meta" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="inteface.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.MainPage" />
+        <item itemvalue="Application.Experimentation" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f78ed37d-e1cd-4555-9b78-e01980f9d251" name="Changes" comment="" />
+      <created>1711717624905</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1711717624905</updated>
+    </task>
+    <task id="LOCAL-00001" summary="first commit">
+      <created>1711724018830</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1711724018830</updated>
+    </task>
+    <task id="LOCAL-00002" summary="experimentation + interface graphique">
+      <created>1711760604897</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1711760604897</updated>
+    </task>
+    <task id="LOCAL-00003" summary="experimentation + interface graphique">
+      <created>1711760657874</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1711760657874</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="first commit" />
+    <MESSAGE value="experimentation + interface graphique" />
+    <option name="LAST_COMMIT_MESSAGE" value="experimentation + interface graphique" />
+  </component>
+</project>
