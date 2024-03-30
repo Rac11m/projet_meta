@@ -20,7 +20,7 @@ public class MainPage extends Application {
     @Override
     public void start(Stage stage) throws IOException {
         try {
-            FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("ressources/Login.fxml"));
+            FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("ressources/Page1.fxml"));
             Scene scene = new Scene(fxmlLoader.load(), 1400, 820);
               scene.getStylesheets().add(getClass().getResource("ressources/application.css").toExternalForm());
 
