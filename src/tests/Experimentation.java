@@ -16,27 +16,29 @@ import java.util.Vector;
 public class Experimentation {
 	
 	public static void main(String[] args) {
-		for (int nbr_sac = 0; nbr_sac < 5; nbr_sac++) {
-			for (int nbr_objet= 0; nbr_objet < 5; nbr_objet++) {
-				genererDonneesTest(nbr_sac, nbr_objet, "tests/sacs.csv", "tests/objets.csv");
+        int limit_sac = 10;
+        int limit_objets = 20;
+        for (int nbr_sac = 1; nbr_sac <= limit_sac; nbr_sac++) {
+			for (int nbr_objet= 1; nbr_objet <= limit_objets; nbr_objet++) {
+				genererDonneesTest(nbr_sac, nbr_objet, "tests/filesCSV/sacs" + String.valueOf(nbr_sac) + "_" + String.valueOf(nbr_objet) + ".csv", "tests/filesCSV/objets" + String.valueOf(nbr_sac) + "_" + String.valueOf(nbr_objet) + ".csv");
 			}	
 		}
 
-        Sac[] sacs = readSacCSV("tests/sacs.csv");
+        for (int nbr_sac = 1; nbr_sac <= limit_sac; nbr_sac++) {
+            for (int nbr_objet= 1; nbr_objet <= limit_objets; nbr_objet++) {
+                String sac_path = "tests/filesCSV/sacs" + String.valueOf(nbr_sac) + "_" + String.valueOf(nbr_objet) + ".csv";
+                String objet_path = "tests/filesCSV/objets" + String.valueOf(nbr_sac) + "_" + String.valueOf(nbr_objet) + ".csv";
 
-        for (int i = 0; i < sacs.length; i++){
-            System.out.println("sac"+sacs[i].getNum_sac()+": "+ sacs[i].getPoids_sac()+"kg");
+                Sac[] sacs = readSacCSV(sac_path);
+                Objet[] objets = readObjetCSV(objet_path);
+
+                Etat but = new Etat(sacs.length, objets.length);
+                String result_path = "tests/filesCSV/results" + String.valueOf(nbr_sac) + "_" + String.valueOf(nbr_objet) + ".csv";
+                String val_result_path = "tests/filesCSV/val_results" + String.valueOf(nbr_sac) + "_" + String.valueOf(nbr_objet) + ".csv";
+                writeResults(but, sacs, objets, result_path, val_result_path);
+            }
         }
 
-        Objet[] objets = readObjetCSV("tests/objets.csv");
-
-        for (int i = 0; i < objets.length; i++){
-            System.out.println("objet"+objets[i].getNum_obj()+": "+ objets[i].getVal_obj()+"$, "+objets[i].getPoids_obj()+"kg");
-        }
-
-        Etat but = new Etat(sacs.length, objets.length);
-
-        writeResults(but, sacs, objets, "tests/results.csv", "tests/val_results.csv");
 	}
 
     public static void genererDonneesTest(int nbr_sac, int nbr_objet, String sacCSV, String objetCSV) {
@@ -110,11 +112,11 @@ public class Experimentation {
     }
 
     public static void writeResults (Etat but, Sac[] sacs, Objet[] objets, String resultatCSV, String valresultatCSV) {
-        List tempsBFS = new ArrayList<>();
+        List<Long> tempsBFS = new ArrayList<>();
         int valBFS = 0;
-        List tempsDFS = new ArrayList<>();
+        List<Long> tempsDFS = new ArrayList<>();
         int valDFS = 0;
-        List tempsAStar = new ArrayList<>();
+        List<Long> tempsAStar = new ArrayList<>();
         int valAstar = 0;
 
         // Exécuter et mesurer le temps pour BFS
