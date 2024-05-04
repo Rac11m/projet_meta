@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.control.Spinner?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.control.ToggleGroup?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="anchrPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="821.0" prefWidth="1400.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="inteface.MainPageController">
+   <children>
+      <Label fx:id="bienvueLabel" alignment="CENTER" contentDisplay="CENTER" layoutX="-2.0" layoutY="76.0" prefHeight="61.0" prefWidth="1400.0" text="MKP" textFill="#0f8ca4">
+         <font>
+            <Font name="DejaVu Sans Bold" size="50.0" />
+         </font>
+      </Label>
+      <Label fx:id="emlLabel" layoutX="579.0" layoutY="158.0" prefHeight="25.0" prefWidth="242.0" text="Selectionnez un algorithme">
+         <font>
+            <Font name="DejaVu Sans Bold" size="16.0" />
+         </font></Label>
+      <Label fx:id="passwordLabel" layoutX="165.0" layoutY="293.0" prefHeight="25.0" prefWidth="242.0" text="Nombre de sacs a dos">
+         <font>
+            <Font name="DejaVu Sans Bold" size="16.0" />
+         </font></Label>
+      <ChoiceBox fx:id="alg_select" layoutX="579.0" layoutY="194.0" onAction="#getParams" prefHeight="40.0" prefWidth="242.0" value="Choisir un algorithme" />
+      <Button fx:id="btnStart" blendMode="SRC_ATOP" layoutX="576.0" layoutY="666.0" mnemonicParsing="false" onAction="#execute" prefHeight="62.0" prefWidth="249.0" text="Executer">
+         <font>
+            <Font size="20.0" />
+         </font></Button>
+      <Label fx:id="passwordLabel1" layoutX="164.0" layoutY="376.0" prefHeight="25.0" prefWidth="242.0" text="Nombre d'objets">
+         <font>
+            <Font name="DejaVu Sans Bold" size="16.0" />
+         </font>
+      </Label>
+      <Spinner fx:id="nbr_sac_spinner" layoutX="164.0" layoutY="331.0" prefHeight="26.0" prefWidth="242.0" />
+      <Spinner fx:id="nbr_objet_spinner" layoutX="165.0" layoutY="414.0" prefHeight="26.0" prefWidth="242.0" />
+
+      <Label fx:id="saccsvlabel" layoutX="979.0" layoutY="270.0" prefHeight="25.0" prefWidth="242.0" text="fichier csv des sacs">
+         <font>
+            <Font size="16.0" />
+         </font></Label>
+      <TextField fx:id="filePathTextFieldS" layoutX="978.0" layoutY="308.0" prefWidth="242.0" promptText="Chemin du fichier" />
+      <Button fx:id="chooseFileButtonS" layoutX="979.0" layoutY="348.0" mnemonicParsing="false" onAction="#chooseFileS" text="Choisir un fichier" />
+
+      <Label fx:id="csvpickerlabel" layoutX="979.0" layoutY="384.0" prefHeight="25.0" prefWidth="242.0" text="fichier csv des objets">
+         <font>
+            <Font size="16.0" />
+         </font></Label>
+      <TextField fx:id="filePathTextFieldO" layoutX="978.0" layoutY="417.0" prefWidth="242.0" promptText="Chemin du fichier" />
+      <Button fx:id="chooseFileButtonO" layoutX="979.0" layoutY="454.0" mnemonicParsing="false" onAction="#chooseFileO" text="Choisir un fichier" />
+      <Button fx:id="chooseFileButtonO1" layoutX="165.0" layoutY="464.0" mnemonicParsing="false" onAction="#chooseFileG" text="Générer un fichier" />
+
+      <RadioButton fx:id="generateFileRadioButton" layoutX="201.0" layoutY="530.0" mnemonicParsing="false" onAction="#handleGenerateFileRadioButton" text="Générer un fichier CSV">
+         <toggleGroup>
+            <ToggleGroup fx:id="csv_file" />
+         </toggleGroup></RadioButton>
+      <RadioButton fx:id="selectFileRadioButton" layoutX="991.0" layoutY="520.0" mnemonicParsing="false" onAction="#handleselectFileRadioButton" text="Sélectionner un fichier existant" toggleGroup="$csv_file" />
+      <Label fx:id="p_sizeLabel" layoutX="579.0" layoutY="293.0" prefHeight="25.0" prefWidth="132.0" text="Taille population" visible="false">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Label fx:id="p_mutateLabel" layoutX="579.0" layoutY="454.0" prefHeight="25.0" prefWidth="132.0" text="Mutation" visible="false">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Label fx:id="p_crossLabel" layoutX="579.0" layoutY="374.0" prefHeight="25.0" prefWidth="132.0" text="Crossover" visible="false">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <TextField fx:id="p_size" layoutX="579.0" layoutY="320.0" visible="false" />
+      <TextField fx:id="p_cross" layoutX="579.0" layoutY="405.0" visible="false" />
+      <TextField fx:id="p_mutate" layoutX="579.0" layoutY="489.0" visible="false" />
+      <Label fx:id="bee_sizeLabel" layoutX="589.0" layoutY="303.0" prefHeight="25.0" prefWidth="132.0" text="Taille colonie" visible="false">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Label fx:id="chances_maxLabel" layoutX="589.0" layoutY="464.0" prefHeight="25.0" prefWidth="132.0" text="Nombre chances " visible="false">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Label fx:id="flipLabel" layoutX="589.0" layoutY="384.0" prefHeight="25.0" prefWidth="132.0" text="Flip" visible="false">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <TextField fx:id="bc_size" layoutX="589.0" layoutY="330.0" visible="false" />
+      <TextField fx:id="flip" layoutX="589.0" layoutY="415.0" visible="false" />
+      <TextField fx:id="chances_max" layoutX="589.0" layoutY="499.0" visible="false" />
+
+   </children>
+</AnchorPane>
